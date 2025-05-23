@@ -55,8 +55,6 @@
     REACT_APP_ELEVEN_API_KEY=your_elevenlabs_api_key
     REACT_APP_ELEVEN_VOICE_ID=your_voice_id
     REACT_APP_ELEVEN_MODEL_ID=eleven_multilingual_v2
-
-    
     ```
 
 4. **Start the development server**
