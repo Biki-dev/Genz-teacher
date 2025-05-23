@@ -1,0 +1,41 @@
+.header {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.header-subtitle {
+  font-size: 1.125rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.dark .header-subtitle {
+  color: #d1d5db;
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2.5rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 2rem;
+  }
+}

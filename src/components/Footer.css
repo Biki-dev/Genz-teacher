@@ -1,0 +1,24 @@
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.dark .footer {
+  color: #9ca3af;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 2rem;
+  }
+
+  .footer-text {
+    font-size: 0.75rem;
+  }
+}
