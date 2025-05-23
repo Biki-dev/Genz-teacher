@@ -29,32 +29,7 @@
 
 ## 📁 Folder Structure
 
-GENZ-TEACHER/
- ├── public/
- ├── src/
- │   ├── components/
- │   │   ├── Footer.css
- │   │   ├── Footer.jsx
- │   │   ├── Header.css
- │   │   ├── Header.jsx
- │   │   ├── InputSection.css
- │   │   ├── InputSection.jsx
- │   │   ├── OutputSection.css
- │   │   ├── OutputSection.jsx
- │   ├── api.js
- │   ├── App.css
- │   ├── App.js
- │   ├── App.test.js
- │   ├── index.css
- │   ├── index.js
- │   ├── logo.svg
- │   ├── reportWebVitals.js
- │   ├── setupTests.js
- ├── .env
- ├── .gitignore
- ├── package.json
- ├── package-lock.json
-
+![Structure](https://i.postimg.cc/MKZB6c8L/Screenshot-20250523-232010-Chrome.png)
 
 ---
 
@@ -76,11 +51,12 @@ GENZ-TEACHER/
     Create a `.env` file in root:
 
     ```
-REACT_APP_OPENROUTER_API_KEY=your_openrouter_api_key
-
-REACT_APP_ELEVEN_API_KEY=your_elevenlabs_api_key
+    REACT_APP_OPENROUTER_API_KEY=your_openrouter_api_key
+    REACT_APP_ELEVEN_API_KEY=your_elevenlabs_api_key
     REACT_APP_ELEVEN_VOICE_ID=your_voice_id
     REACT_APP_ELEVEN_MODEL_ID=eleven_multilingual_v2
+
+    
     ```
 
 4. **Start the development server**
